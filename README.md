@@ -1,6 +1,4 @@
-[Click here to watch a video of how this works](https://youtu.be/4-ysecoraKo)
-
-etext is a python module that lets you send text messages using email SMS gateways. Both SMS and MMS are supported.
+text-alerts is a python module that lets you send text messages using email SMS gateways. Both SMS and MMS are supported.
 
 # Instalation
 ```
@@ -26,7 +24,7 @@ send_sms_via_email(
 
 `message: str` - message to send
 
-`provider: str` - phone provider/carrier [click here to see the supported providers](https://github.com/AlfredoSequeida/etext/blob/master/etext/providers.py).
+`provider: str` - phone provider/carrier
 
 `sender_credentials: tuple` - email and password for SMTP server
 
